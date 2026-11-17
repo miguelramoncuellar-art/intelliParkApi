@@ -1,6 +1,6 @@
 CREATE TYPE roles AS ENUM (
   'operador',
-  'administrador',
+  'administrador'
 );
 
 CREATE TABLE IF NOT EXISTS users (
